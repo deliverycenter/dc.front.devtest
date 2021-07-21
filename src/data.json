@@ -1,0 +1,47 @@
+{
+  "orders": [
+    {
+      "id": 123456,
+      "store": {
+        "id": 1,
+        "name": "Bom dia e CIA"
+      },
+      "channel": {
+        "id": 1,
+        "name": "Ifood"
+      },
+      "driver": {
+        "id": 1,
+        "name": "Laurita Cardoso"
+      },
+      "customer": {
+        "name": "Maria do Rocio",
+        "phone": "+5541999999999"
+      },
+      "payments": [
+        {
+          "type": "CREDIT",
+          "value": 10.2
+        }
+      ],
+      "status": "DELIVERED",
+      "value": 8,
+      "total_value": 10.2,
+      "freight_value": 2.2,
+      "requested_payment_type": "CREDIT",
+      "created_at": "2021-04-07T19:37:11.224405",
+      "delivery_time": 45
+    }
+  ],
+  "dictionary": {
+    "CREATED": "Criado",
+    "ACCEPTED": "Aceito",
+    "READY": "Pronto",
+    "DELIVERING": "Entregando",
+    "DELIVERED": "Entregue",
+    "CREDIT": "Cartão de Crédito",
+    "DEBIT": "Cartão de Débito",
+    "ONLINE": "Online",
+    "MONEY": "Dinheiro"
+  }
+}
